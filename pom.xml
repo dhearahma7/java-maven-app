@@ -21,7 +21,11 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <mainClass>com.example.JavaMavenAppApplication</mainClass> <!-- GANTI sesuai nama class dan package kamu -->
+                </configuration>
             </plugin>
+
 
             <!-- to handle any Java version mismatch, add the following configuration for maven-compiler-plugin -->
             <plugin>
